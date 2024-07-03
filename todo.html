@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="flex justify-center items-center">
+    <div class="w-1/2 mt-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="task">
+        Add a task
+      </label>
+      <div class="flex">
+        <input class="shadow appearance-none border rounded-l w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="task" type="text" placeholder="Add a task">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r focus:outline-none focus:shadow-outline" id="add" type="button">
+          Add
+        </button>
+      </div>
+      <ul id="taskList">
+
+      </ul>
+    </div>
+  </div>
+  <!-- place the script tag at the end -->
+  <script src="todo.js"></script>
+</body>
+</html>
